@@ -1,4 +1,11 @@
 def study_schedule(permanence_period, target_time):
-    """ Faça o código aqui. """
+    try:
+        online_users = 0
 
-    # starting project
+        for login, logout in permanence_period:
+            if login <= target_time <= logout:
+                online_users += 1
+
+        return online_users
+    except TypeError:
+        return None
