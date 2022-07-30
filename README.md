@@ -335,5 +335,5 @@ Resolva o mesmo problema apresentado no `requisito 2 - Palíndromos`, porém des
 </details>
 
 ---
-> OBS: Esse projeto ainda está em andamento...
+> OBS: Esse projeto ainda está em andamento......
 
